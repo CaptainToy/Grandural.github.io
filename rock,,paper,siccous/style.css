@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: hsl(0, 0%, 20%);
+    text-align: center;
+}
+
+.choices {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.choices button {
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: hsl(200, 100%, 50%);
+    cursor: pointer;
+    transition: background-color 0.2 ease;
+}
+
+.choices button:hover {
+    background-color: blue;
+}
+
+#resultDisplay {
+    font-size: 5rem;
+    margin: 30px 0;
+}
+
+#playerDisplay {
+    text-align: center;
+}
+
+#computerDisplay {
+    text-align: center;
+}
+
+#resultDisplay {
+    text-align: center;
+}
+
+.scoreDisplay {
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#playerScoreDisplay {
+    color: hsla(120, 64%, 38%, 0.825);
+}
+
+#computerScoreDisplay {
+    color: tomato;
+
+}
+
+.win {
+    color: hsla(120, 64%, 38%, 0.825);
+}
+
+.loss {
+    color: tomato;
+}
+
+.tie {
+    color: yellow;
+}
+
+.time {
+    color: blue;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 200px;
+
+}
+
+#Reset{
+    margin: 20px;
+    border: 5px ;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    
+}
+#Reset:hover{
+    color: hsl(240, 70%, 55%);
+    background-color: white;
+}
